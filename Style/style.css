@@ -90,6 +90,14 @@ box-sizing: border-box;
     display: inline-block;
     min-height: 344px;
 }
+
+.main_aticle_content:after{
+     content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
 .main_aticle_content_h2 {
     margin: 0;
     font-size: 30px;
@@ -131,6 +139,13 @@ box-sizing: border-box;
 .main_section {
     background-color: #f5f5f5;
     min-height: 500px;
+}
+
+.main_section:after{
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
 }
 
 .main_section_h2 {
